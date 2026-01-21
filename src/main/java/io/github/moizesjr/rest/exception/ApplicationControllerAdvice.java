@@ -1,6 +1,5 @@
-package io.github.moizesjr;
+package io.github.moizesjr.rest.exception;
 
-import io.github.moizesjr.rest.exception.ApiErrors;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
