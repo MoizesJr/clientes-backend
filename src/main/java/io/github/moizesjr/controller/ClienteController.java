@@ -35,6 +35,7 @@ public class ClienteController {
 
     @GetMapping
     public List<Cliente> buscarTodos() {
+
         return repository.findAll();
     }
 
