@@ -19,6 +19,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(org.springframework.http.HttpMethod.OPTIONS, "/**").permitAll()
                 // 2. Libera o acesso aos endpoints de clientes (importante para o seu projeto atual)
                 .antMatchers("/clientes/**").permitAll()
+                .antMatchers("/servicos-prestados/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic()
