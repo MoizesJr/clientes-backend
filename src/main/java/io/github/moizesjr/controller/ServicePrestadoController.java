@@ -21,7 +21,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/servicos-prestados")
 @RequiredArgsConstructor
-@CrossOrigin("http://localhost:4200")
 public class ServicePrestadoController {
 
     private final ClienteRepository clienteRepository;
